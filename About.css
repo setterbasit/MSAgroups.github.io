@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Roboto+Slab&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+    text-decoration: none;
+    color: aliceblue;     
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 6px;
+   background:rgba(12, 0, 0, 0.763);
+   position:relative;
+   
+
+   
+}
+body{
+   background-image: url(image/print.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+}
+.logo img{
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+
+}
+ul li{
+    display: inline-flex;
+    padding: 30px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    position: sticky;
+}
+
+
+
+a:hover{
+    background-color: rgb(231, 7, 48);
+    border-radius:50px;
+    padding:5px;
+}
+.container{
+    margin:40px 20px auto 20px;
+    padding: 20px auto;
+    
+   
+}
+.container p{
+       color:white;
+       font-size: 20px;
+    font-family: poppins,cursive;
+    word-spacing: 1.5px;
+    
+
+}
+.logo2 img{
+     width: 100px;
+     display: flex;
+     float:left;
+     margin-right: 20px;
+     border-radius: 20px;
+     border-style: solid;
+     border-color:white;
+     color:rgba(7, 0, 0, 0.2);
+     
+}
+.container h2{
+    font-family: popins,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 360;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    word-spacing: 15px;
+    font-size: 35px;
+    color: white;
+   word-spacing: 6px;
+    text-align: center;
+    box-shadow: 10px 0px 10px rgb(162, 2, 2),10px -10px 10px rgb(162, 2, 2),-10px -10px 16px rgb(162, 2, 2);
+    border-radius: 40px;
+    border-color:brown;
+    background-color: rgba(0, 13, 13, 0.55);
+    
+}
+.container2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    word-spacing: 15px;
+    font-size: 20px;
+    color: white;
+    word-wrap:break-word;
+}
+.container p1{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight:00;
+    font-size: 25;
+    font-style: oblique;
+
+}
+.logo2 h4{
+    color: white;
+    padding: 5px;
+    word-spacing: 2px;
+    
+    
+
+}
+.logo2 h6{
+    color: white;
+    font-style: italic;
+    text-align: left;
+    word-spacing: 2px;
+}
+#container2{
+    color: black;
+    margin: 20px;
+    background:url(image/nakkashi.jpg);
+    background-size:contain;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    margin-left: auto 20px 30px 20px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border: solid rgb(232, 233, 238);
+    
+}
+.first {
+    color: rgb(1, 9, 16);
+    background-color: rgba(250, 250, 250, 0.961);
+    width: 70%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+}
+.first h3 {
+    font-size: 40px;
+    color: rgb(85, 134, 62);
+    font-family: brush script MT;
+    
+
+}
+.first p{
+   color: blueviolet;
+   font-style: italic;
+   font-family: cursive,pioppins;
+   padding: 10px;
+}  
+.second{
+    
+    width: 30%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgb(215, 237, 219);
+}
+.second h4{
+    margin-top: 170px;
+    margin-left: 10px;
+    color:rgb(85, 134, 62);
+    font-family:poppins,cursive;
+    font-size:20px;
+}
+.logo3 img{
+    width: 100px;
+    display: flex;
+    float:left;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:white;
+    color:rgba(7, 0, 0, 0.2);
+}
+.second p{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    
+}
+.text-box{
+    background-color: rgb(79, 79, 168);
+    height:120px;
+    padding: 20px;
+    width: 100%;
+}
+.text-box h2{
+      text-decoration: underline;
+      margin-left:0px;
+      padding:10px;
+      
+      
+}
+#footer{
+    background-color: rgb(6, 6, 71);
+    width: 100%;
+    height:300px;
+    border-style: outset;
+    
+}
+#footer h2 {
+  font-size: 30px;
+  font-family:'Satisfy', cursive;
+  margin-left:900px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+#footer ul li {
+        font-size:10px;
+        display: flow-root;
+        padding: 12px;
+        margin-left:900px;
+}
+.text2 h2{
+    font-size: 30px;
+    font-family:'Satisfy', cursive;
+    text-decoration: underline;
+    margin-top: -300px;
+    margin-left:300px;
+    padding-top: 10px;
+}
+.text2 address{
+    margin-left:320px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.text2 h4{
+    margin-top: -15px;
+    margin-left:37px;
+}
+.text3 h2{
+    font-size: 30px;
+    font-family:'Satisfy', cursive;
+    text-decoration: underline;
+    margin-left:300px;
+    
+}
+.text3 h3{
+    margin-left: 350px;
+     font-size: 30px;
+
+}
+.text5 p{
+    text-align: center;
+    margin-top: 20px;
+    color:orange;
+    font-size: 9px;
+}

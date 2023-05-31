@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Roboto+Slab&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+    text-decoration: none;
+    color: aliceblue;  
+    
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 6px;
+   background:rgba(12, 0, 0, 0.763);
+   position:relative;
+   font-family: 'Roboto Slab', serif;
+
+} 
+body{
+    background-color: black;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+    
+.logo img{
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+
+
+}
+ul li{
+    display: inline-flex;
+    padding: 30px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    position: sticky;
+}
+
+
+a:hover{
+    background-color: rgb(231, 7, 48);
+    border-radius:50px;
+    padding:5px;
+}
+
+.services {
+  width: 100%;
+  height: 90px;
+  border-style: solid;
+  border-color: blanchedalmond;
+  background:url(image/wp7816548.jpg);
+  font-size: 30px;
+  filter: brightness(10px);
+  text-align: center;
+ 
+}
+.services h1{
+    color: rgb(255, 255, 255);
+}
+#wrapper h3{
+    padding:40px auto 20px 40px;
+    margin:10px 30px auto 30px;
+    font-size: 15px;
+}
+#Container1{
+    background-color: rgb(255, 255, 255);
+    height:450px;
+    border-radius: 10px;
+    margin:10px 30px auto 30px;
+    
+    
+}
+#container1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px 450px 20px 10px;
+    color: rgba(6, 3, 9, 0.824);
+    margin-top: 35px;
+}
+#container1 h3{
+    color: rgb(11, 7, 0);
+    margin-top: 50px;  
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+.image01 img{
+    margin-top:-270px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+      
+.image01 img:hover{
+   filter: grayscale(0%);
+   border-radius: 20px;
+   transform: scale(1.1px);
+   
+}
+.image02 img{
+    margin-top:-70px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+
+.image02 img:hover{
+   filter:grayscale(0%);
+   border-radius: 20px;
+   
+
+}
+#container1 button{
+    margin-top: -60px;
+    margin-left:150px;
+    padding: 9px auto 9px auto;
+    width: 200px;
+    height: 35px;
+    text-align:center;
+    color: rgb(247, 8, 8);
+    background-color: rgb(255, 255, 0);
+    font-size: 16px;
+    border-radius:20px;
+    font-weight: bold;
+    font-family:'Skranji' ,cursive;
+
+    
+}
+#container1 button:hover{
+    background-color:crimson
+
+}
+#container2{
+    background-color: rgb(255, 255, 255);
+    height:450px;
+    border-radius: 10px;
+    margin:10px 30px auto 30px;
+}
+#container2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px 450px 20px 10px;
+    color: rgba(6, 3, 9, 0.824);
+}
+#container2 h3{
+    color: rgb(11, 7, 0);
+    margin-top: 50px;  
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+.image03 img{
+    margin-top:-320px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+    
+
+.image03 img:hover{
+   filter: grayscale(0%);
+   border-radius: 20px;
+}
+.image04 img{
+    margin-top:-125px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+
+.image04 img:hover{
+   filter:grayscale(0%);
+   border-radius: 20px;
+
+
+}
+#container2 button{
+    margin-top: -30px;
+    margin-left:150px;
+    padding: 9px auto 9px auto;
+    width: 200px;
+    height: 35px;
+    text-align:center;
+    color: rgb(247, 8, 8);
+    background-color: rgba(242, 255, 0, 0.975);
+    font-size: 16px;
+    border-radius:20px;
+    font-weight: bold;
+    font-family:'Skranji' ,cursive;
+
+    
+}
+#container2 button:hover{
+    background-color: crimson;
+}
+#Container3{
+    background-color: rgb(255, 255, 255);
+    height:450px;
+    border-radius: 10px;
+    margin:10px 30px auto 30px;
+    
+    
+}
+#container3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px 450px 20px 10px;
+    color: rgba(6, 3, 9, 0.824);
+    margin-top: 10px;
+}
+#container3 h3{
+    color: rgb(11, 7, 0);
+    margin-top: 50px;  
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+.image05 img{
+    margin-top:-215px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+      
+.image05 img:hover{
+   filter: grayscale(0%);
+   border-radius: 20px;
+}
+.image06 img{
+    margin-top:-20px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+
+.image06 img:hover{
+   filter:grayscale(0%);
+   border-radius: 20px;
+   
+
+}
+#container3 button{
+    margin-top: -70px;
+    margin-left:150px;
+    padding: 9px auto 9px auto;
+    width: 200px;
+    height: 35px;
+    text-align:center;
+    color: rgb(247, 8, 8);
+    background-color: rgb(255, 255, 0);
+    font-size: 16px;
+    border-radius:20px;
+    font-weight: bold;
+    font-family:'Skranji' ,cursive;
+
+    
+}
+#container3 button:hover{
+    background-color:crimson
+
+}
+#Container4{
+    background-color: rgb(255, 255, 255);
+    height:450px;
+    border-radius: 10px;
+    margin:10px 30px auto 30px;
+    
+    
+}
+#container4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px 450px 20px 10px;
+    color: rgba(6, 3, 9, 0.824);
+    margin-top: 10px;
+}
+#container4 h3{
+    color: rgb(11, 7, 0);
+    margin-top: 50px;  
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+.image07 img{
+    margin-top:-215px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+      
+.image07 img:hover{
+   filter: grayscale(0%);
+   border-radius: 20px;
+}
+.image08 img{
+    margin-top:-20px;
+    margin-left:790px;
+    width: 400px;
+    height: 180px;
+    border-style: double;
+    border-color: black;
+    filter: grayscale(100%);
+    animation-name: form;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes form{
+     from{
+      width:50px;
+     }
+ }   to{
+     width:400px;
+ }
+
+.image08 img:hover{
+   filter:grayscale(0%);
+   border-radius: 20px;
+   
+
+}
+#container4 button{
+    margin-top: -70px;
+    margin-left:150px;
+    padding: 9px auto 9px auto;
+    width: 200px;
+    height: 35px;
+    text-align:center;
+    color: rgb(247, 8, 8);
+    background-color: rgb(255, 255, 0);
+    font-size: 16px;
+    border-radius:20px;
+    font-weight: bold;
+    font-family:'Skranji' ,cursive;
+
+    
+}
+#container4 button:hover{
+    background-color:crimson
+
+}
