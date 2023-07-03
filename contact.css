@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Roboto+Slab&family=Satisfy&family=Skranji:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Roboto+Slab&family=Satisfy&family=Skranji:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -54,16 +54,7 @@ a:hover{
     height: 10vh;
     display: flex;
     margin:0px 80px auto 30px;
-    animation-name: form;
-   animation-duration: 2s;
-   animation-fill-mode: forwards;
-}
-@keyframes form{
-    from{
-     width:50px;
-    }
-}   to{
-    width:400px;
+    
 }
 
 .first{
